@@ -1,0 +1,70 @@
+/* Form styling */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    color:white;
+    background-color: black;
+}
+.container{
+    height:600px;
+    width:450px;
+    background-color: white;
+    margin:auto;
+    margin-top:25px;
+    border-radius: 5px;
+    color:black;
+    box-shadow: 5px 5px 15px rgb(189, 189, 189);
+}
+.container h2{
+    text-align: center;
+    padding:41px;
+    cursor: pointer;
+}
+.input{
+    height: 58px;
+    width: 348px;
+    outline: none;
+    border: none;
+    border-bottom: 1.5px solid black;
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type='email']{
+    margin-top:20px;
+}
+input[type='password']{
+    margin-top:20px;
+}
+.container button{
+    margin-top:38px;
+    padding:15px;
+    width:251px;
+    margin-left:97px;
+    cursor: pointer;
+    font-size: 22px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all;
+    transition-duration:.2s ;
+    border:none;
+    background-color:black;
+    color:white;
+    border-radius: 4px;;
+}
+.container button:hover{
+    background-color: white;
+    color:black;
+}
+#otp-related{
+    margin-top:20px;
+}
+.othercontent{
+    margin-top:27px;
+    margin-left:73px;
+}
+.othercontent a{
+    color:red;
+}
